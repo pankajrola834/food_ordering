@@ -1,0 +1,41 @@
+.payment-container {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .payment-header {
+    background-color: #5e35b1;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .payment-content {
+    margin-top: 50px;
+  }
+  
+  .total-label {
+    font-size: 22px;
+    font-weight: bold;
+    color: #5e35b1;
+  }
+  
+  .total-price {
+    font-size: 36px;
+    font-weight: bold;
+    color: orange;
+  }
+  
+  .pay-btn {
+    background: black; /* ✅ Changed to Black */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: 0.3s;
+  }
+  

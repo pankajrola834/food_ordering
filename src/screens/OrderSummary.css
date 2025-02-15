@@ -1,0 +1,169 @@
+/* General Container */
+.summary-container {
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ✅ Centers everything */
+}
+
+/* Header */
+.summary-header {
+  width: 100%;
+  max-width: 600px;
+  background: goldenrod;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Empty Summary */
+.empty-summary {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.empty-summary p {
+  font-size: 18px;
+  color: #555;
+}
+
+.empty-summary button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.empty-summary button:hover {
+  background: darkgray;
+}
+
+/* Summary Items Grid */
+.summary-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* ✅ Ensures 4 items per row */
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  width: 80%; /* ✅ Centers the grid */
+}
+
+/* Each Item Card */
+.summary-item {
+  background: gold;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 250px; /* ✅ Prevents stretching */
+  transition: 0.3s;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary-item:hover {
+  transform: scale(1.02);
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Item Image */
+.summary-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* Item Info */
+.item-info {
+  font-size: 16px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+/* Bill Summary - Centered */
+.summary-details {
+  background: #f5f5f5;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center; /* ✅ Centers text */
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 50%; /* ✅ Centers bill summary */
+}
+
+.summary-details span {
+  color: orange;
+}
+
+.total-price {
+  font-size: 22px;
+  color: red;
+}
+
+/* Summary Buttons - Centered */
+.summary-buttons {
+  display: flex;
+  justify-content: center; /* ✅ Centers buttons */
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Buttons */
+.download-btn,
+.pay-btn {
+  background: black; /* ✅ Changed to Black */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+/* Hover Effect */
+.download-btn:hover,
+.pay-btn:hover {
+  background: #333; /* ✅ Slightly lighter black on hover */
+}
+
+/* Responsive - Adjust for Smaller Screens */
+@media (max-width: 1024px) {
+  .summary-items {
+    grid-template-columns: repeat(3, 1fr); /* ✅ 3 items per row on tablets */
+    width: 90%;
+  }
+  .summary-details {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .summary-items {
+    grid-template-columns: repeat(2, 1fr); /* ✅ 2 items per row */
+  }
+  .summary-details {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .summary-items {
+    grid-template-columns: repeat(1, 1fr); /* ✅ 1 item per row */
+  }
+  .summary-details {
+    width: 100%;
+  }
+}

@@ -1,0 +1,160 @@
+.menu-container {
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+}
+
+.menu-header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:goldenrod;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.cart-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-count {
+  font-size: 19px;
+  background-color: rgba(255, 34, 0, 0.707);
+  color: white;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 50%;
+}
+
+.category-list {  
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.category-item {
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.9s;
+  background-color: rgb(255, 222, 140);
+}
+
+
+.category-item.active {
+  background-color: #c08e2a;
+  color: white;
+}
+
+.category-item img {
+  width:150px;
+  height: 150px;
+  object-fit:contain;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.menu-card {
+  width: 250px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 15px;
+  background: gold;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  opacity:calc(0.8);
+}
+
+.menu-card:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 1;
+  color:darkblue;
+  background: gold;
+  box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu-image {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* button.customize-btn {
+  background-color: goldenrod;
+} */
+
+/* Popup Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+

@@ -1,0 +1,292 @@
+{
+    "Burgers": [
+      {
+        "name": "Big Mac",
+        "image": "/assets/images/big_mac.png",
+        "price": 349.99,
+        "rating" : "3.1",
+        "description": "A delicious burger with two all-beef patties"
+      },
+      {
+        "name": "McChicken",
+        "image": "/assets/images/mcchicken.png",
+        "price": 329.99,
+        "rating" : "3.1",
+        "description": "A tasty chicken sandwich with lettuce and mayo"
+      },
+      {
+        "name": "Quarter Pounder with Cheese",
+        "image": "/assets/images/quarter_pounder.png",
+        "price": 149.49,
+        "rating" : "3.1",
+        "description": "Juicy beef patty with cheese"
+      },
+      {
+        "name": "Cheeseburger",
+        "image": "/assets/images/cheeseburger.png",
+        "price": 99.79,
+        "rating" : "3.1",
+        "description": "Classic cheeseburger with pickles, onions, and ketchup"
+      },
+      {
+        "name": "McDouble",
+        "image": "/assets/images/mcdouble.png",
+        "price": 199.29,
+        "rating" : "3.1",
+        "description": "Double patty burger with cheese"
+      }
+    ],
+    "Pizza": [
+    {
+      "name": "Margherita",
+      "image": "/assets/images/margherita_pizza.png",
+      "price": 299.99,
+      "rating": "4.5",
+      "description": "Classic pizza with tomato sauce, mozzarella, and basil"
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "image": "/assets/images/pepperoni_pizza.png",
+      "price": 349.99,
+      "rating": "4.7",
+      "description": "Pizza topped with pepperoni slices and cheese"
+    },
+    {
+      "name": "Veggie Pizza",
+      "image": "/assets/images/veggie_pizza.png",
+      "price": 279.99,
+      "rating": "4.2",
+      "description": "Loaded with fresh vegetables and cheese"
+    },
+    {
+      "name": "BBQ Chicken Pizza",
+      "image": "/assets/images/bbq_chicken_pizza.png",
+      "price": 399.99,
+      "rating": "4.6",
+      "description": "BBQ sauce base with grilled chicken and onions"
+    },
+    {
+      "name": "Cheese Burst Pizza",
+      "image": "/assets/images/cheese_burst_pizza.png",
+      "price": 449.99,
+      "rating": "4.8",
+      "description": "Stuffed crust with molten cheese inside"
+    }
+  ],
+  "Hotdogs": [
+    {
+      "name": "Classic Hotdog",
+      "image": "/assets/images/classic_hotdog.png",
+      "price": 199.99,
+      "rating": "4.3",
+      "description": "Hotdog served in a bun with mustard and ketchup"
+    },
+    {
+      "name": "Cheese Hotdog",
+      "image": "/assets/images/cheese_hotdog.png",
+      "price": 229.99,
+      "rating": "4.5",
+      "description": "Hotdog with melted cheese and onions"
+    },
+    {
+      "name": "Chili Dog",
+      "image": "/assets/images/chili_dog.png",
+      "price": 249.99,
+      "rating": "4.6",
+      "description": "Hotdog topped with spicy chili and cheese"
+    },
+    {
+      "name": "Bacon-Wrapped Hotdog",
+      "image": "/assets/images/bacon_hotdog.png",
+      "price": 279.99,
+      "rating": "4.7",
+      "description": "Hotdog wrapped in crispy bacon"
+    }
+  ],
+    "Fries" : [
+      {
+        "name": "Medium Fries",
+        "price": 199.49,
+        "rating" : "3.1",
+        "description": "Crispy and golden fries",
+        "image": "/assets/images/medium_fries.png"
+      },
+      {
+        "name": "Large Fries",
+        "price": 299.29,
+        "rating" : "3.1",
+        "description": "Extra-large serving of fries",
+        "image": "/assets/images/large_fries.png"
+      },
+      {
+        "name": "Curly Fries",
+        "price": 249.49,
+        "rating" : "3.1",
+        "description": "Delicious, twisted fries",
+        "image": "/assets/images/curly_fries.png"
+      }
+    ],
+    "Chinese": [
+      {
+        "name": "Spring Rolls",
+        "image": "/assets/images/spring_rolls.png",
+        "price": 129.99,
+        "rating" : "3.1",
+        "description": "Crispy rolls filled with vegetables"
+      },
+      {
+        "name": "Chow Mein",
+        "image": "/assets/images/chow_mein.png",
+        "price": 99.49,
+        "rating" : "3.1",
+        "description": "Stir-fried noodles with vegetables"
+      },
+      {
+        "name": "Sweet and Sour Chicken",
+        "image": "/assets/images/sweet_and_sour_chicken.png",
+        "price": 249.99,
+        "rating" : "3.1",
+        "description": "Fried chicken in a sweet and sour sauce"
+      },
+      {
+        "name": "Kung Pao Chicken",
+        "image": "/assets/images/kung_pao_chicken.png",
+        "price": 349.49,
+        "rating" : "3.1",
+        "description": "Spicy stir-fried chicken with peanuts"
+      },
+      {
+        "name": "Fried Rice",
+        "image": "/assets/images/fried_rice.png",
+        "price": 119.79,
+        "rating" : "3.1",
+        "description": "Fried rice with vegetables and soy sauce"
+      },
+      {
+        "name": "Egg Foo Young",
+        "image": "/assets/images/egg_foo_young.png",
+        "price": 19.99,
+        "rating" : "3.1",
+        "description": "Chinese-style omelette with vegetables"
+      },
+      {
+        "name": "Hot and Sour Soup",
+        "image": "/assets/images/hot_and_sour_soup.png",
+        "price": 49.49,
+        "rating" : "3.1",
+        "description": "Spicy and tangy soup with tofu and vegetables"
+      },
+      {
+        "name": "General Tso's Chicken",
+        "image": "/assets/images/general_tsos_chicken.png",
+        "price": 359.99,
+        "rating" : "3.1",
+        "description": "Crispy chicken in a tangy sauce"
+      },
+      {
+        "name": "Dim Sum",
+        "image": "/assets/images/dim_sum.png",
+        "price": 199.59,
+        "rating" : "3.1",
+        "description": "Steamed dumplings with meat and vegetables"
+      },
+      {
+        "name": "Mapo Tofu",
+        "image": "/assets/images/mapo_tofu.png",
+        "price": 299.29,
+        "rating" : "3.1",
+        "description": "Tofu in a spicy Sichuan sauce"
+      }
+    ],
+    "South Indian": [
+      {
+        "name": "Dosa",
+        "image": "/assets/images/dosa.png",
+        "price": 79.99,
+        "rating" : "3.1",
+        "description": "Crispy rice crepe served with chutneys"
+      },
+      {
+        "name": "Idli",
+        "image": "/assets/images/idli.png",
+        "price": 59.49,
+        "rating" : "3.1",
+        "description": "Steamed rice cakes served with chutney and sambar"
+      },
+      {
+        "name": "Vada",
+        "image": "/assets/images/vada.png",
+        "price": 39.99,
+        "rating" : "3.1",
+        "description": "Crispy lentil donuts served with chutney"
+      },
+      {
+        "name": "Sambar Rice",
+        "image": "/assets/images/sambar_rice.png",
+        "price": 69.49,
+        "rating" : "3.1",
+        "description": "Rice served with a spicy lentil soup"
+      }
+    ],
+    "Beverages": [
+      {
+        "name": "Coke",
+        "image": "/assets/images/coke.png",
+        "price": 19.99,
+        "rating" : "3.1",
+        "description": "Refreshing soda"
+      },
+      {
+        "name": "Sprite",
+        "image": "/assets/images/sprite.png",
+        "price": 19.99,
+        "rating" : "3.1",
+        "description": "Lemon-lime soda"
+      },
+      {
+        "name": "Iced Tea",
+        "image": "/assets/images/iced_tea.png",
+        "price": 24.49,
+        "rating" : "3.1",
+        "description": "Cool and refreshing"
+      },
+      {
+        "name": "Orange Juice",
+        "image": "/assets/images/orange_juice.png",
+        "price": 24.79,
+        "rating" : "3.1",
+        "description": "Freshly squeezed juice"
+      },
+      {
+        "name": "Lemonade",
+        "image": "/assets/images/lemonade.png",
+        "price": 19.99,
+        "rating" : "3.1",
+        "description": "Tangy and sweet"
+      }
+    ],
+    "Desserts" : [
+      {
+        "name": "Apple Pie",
+        "price": 39.49,
+        "rating" : "3.1",
+        "description": "Classic apple pie with a crispy crust",
+        "image": "/assets/images/apple_pie.png"
+      },
+      {
+        "name": "Sundae",
+        "price": 29.99,
+        "rating" : "3.1",
+        "description": "Vanilla ice cream topped with chocolate syrup",
+        "image": "/assets/images/sundae.png"
+      },
+      {
+        "name": "McFlurry",
+        "price": 59.49,
+        "rating" : "3.1",
+        "description": "Creamy ice cream with a choice of toppings",
+        "image": "/assets/images/mcflurry.png"
+      }
+    ]
+  }
+  
