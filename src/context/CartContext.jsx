@@ -1,5 +1,4 @@
 import React, { createContext, useState } from "react";
-import "react-toastify/dist/ReactToastify.css";
 
 
 export const CartContext = createContext();
@@ -18,10 +17,6 @@ export const CartProvider = ({ children }) => {
     });
   };
   
-  
-   
-  
-
   const removeItem = (item) => {
     setCart((prevCart) => prevCart.filter((existingItem) => existingItem.name !== item.name));
   };
